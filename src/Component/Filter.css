@@ -1,0 +1,116 @@
+.filter-container{
+    background-color: white;
+    height:100vh;
+}
+
+.filter-container hr{
+    margin: 0;
+}
+
+.main-section{
+    padding:1.5rem 1rem 0 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-left-side h5{
+    font-weight: 600;
+}
+
+.section-clear-all p{
+    font-size: .9rem;
+    color: rgb(132, 132, 215);
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.section-price-filter,.section-color-filter{
+    padding:1.5rem 1rem 0 1rem;
+}
+
+.section-name h5{
+    font-size: .9rem;
+    font-weight: 600;
+}
+
+.price-options input[type="checkbox"],.color-options input[type="checkbox"] {
+    margin-right: 10px;
+    transform: scale(1.4);
+}
+
+.price-options input[type="checkbox"]:hover,.color-options input[type="checkbox"]:hover {
+    cursor: pointer;;
+}
+
+.price-options label:hover,.color-options label:hover{
+    color:rgb(255, 62, 108);
+    cursor: pointer;
+}
+
+.filter-container hr:nth-of-type(2) {
+    margin-top: 2vh;
+}
+
+.color{
+    display: inline-block;
+    border-radius: 50%;
+    width:15px;
+    height: 15px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+
+.whiteColor{
+    border: 1px solid #979595;
+}
+
+.pinkColor{
+    background-color: pink;
+}
+
+.blackColor{
+    background-color: black;
+}
+
+.blueColor{
+    background-color: blue;
+}
+
+.yellowColor{
+    background-color: yellow;
+}
+
+.redColor{
+    background-color: rgb(255, 3, 3);
+}
+
+
+.orangeColor{
+    background-color: rgb(255, 165, 0);
+}
+
+.greenColor{
+    background-color: green;
+}
+
+.purpleColor{
+    background-color: purple;
+}
+
+.navyColor{
+    background-color:rgb(0, 0, 128);
+
+}
+
+.brownColor{
+    background-color: brown;
+}
+
+.grayColor{
+    background-color: gray;
+}
+  
+.beigeColor{
+    background-color: rgb(219, 219, 168);
+}

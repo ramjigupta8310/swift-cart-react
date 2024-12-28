@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&family=Dancing+Script:wght@400..700&display=swap');
+
+#footer{
+    height:45vh;
+    margin-top: 10vh;
+    background-color: rgb(246, 243, 238);
+    padding: 1rem 5rem;
+    cursor: pointer;
+}
+
+.footer-row{
+    height: 100%;
+    display: flex;
+    margin-top: 4vh;
+}
+
+.footer-author{
+    margin-top: 4vh;
+    /* font-family: "Dancing Script", cursive; */
+}
+
+.footer-author p{
+    font-size: 1.2rem;
+}
+
+.footer-logo img{
+    height: 3rem;
+}
+
+.footer-row-col1{
+    width:40%;
+    /* border: 1px solid black; */
+}
+
+.footer-row-col2{
+    width: 60%;
+    /* border: 1px solid black; */
+}
+
+.footer-row-col2 .footer-menu{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-submenu ul li{
+    padding-top: .7rem;
+    text-decoration: none;
+    list-style: none;
+    font-size: .8rem;
+    font-weight: 600;
+}
+
+.footer-submenu .footer-active{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+/* 
+
+
+.footer-logo img{
+    height: 5rem;
+}
+
+
+.instagram{
+    padding: 5vh 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:0.5%;
+}
+
+.instagram p{
+    font-size: .7rem;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright p{
+    font-size: .7rem;
+}  */
+
+/* 
+@media only screen and (max-width: 850px) {
+    #b{
+        order:2;
+    }
+
+    #a{
+        order:1;
+    }
+
+    .row{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap:6vh;
+        padding-top: 6vh;
+    }
+
+    #footer{
+        height:90vh;
+        padding: 0px 13vw;
+    }
+
+    .footer-submenu ul h2{
+        font-size: 0.8rem;
+    }
+
+    .footer-submenu ul li{
+        font-size: .6rem;
+    }
+
+    .footer-menu{
+        display: flex;
+        justify-content: center;
+        gap:10vw;
+    }
+
+    .row-col2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-logo{
+        display: flex;
+        justify-content: center;
+    }
+
+    .row-col1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width:100%;
+    }
+
+    .input-email{
+        width:70vw;
+    }
+
+    .input-field hr{
+        width: 90%;
+        margin-top:2.5vh;
+    }
+
+  }
+
+@media only screen and (max-width: 850px) and (min-width:500px){
+    .footer-submenu ul h2{
+        font-size: 1rem;
+    }
+
+    .footer-submenu ul li{
+        font-size: .8rem;
+    }
+} */
+
