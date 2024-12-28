@@ -1,0 +1,113 @@
+.cart-container {
+    display: flex;
+    border: 2px solid black;
+    margin: 2vh 20vw;
+    gap: 1rem;
+    padding: .5rem;
+    border: 2px solid #eaeaec;
+    border-radius: 4px;
+    background-color: white;
+    position: relative;
+}
+
+.cart-img-section img {
+    width: 8rem;
+}
+
+.details-section h4 {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.details-section p {
+    color: #8d8f9a;
+}
+
+.cart-size-section button {
+    width: 2rem;
+    border: none;
+    border-radius: .5rem;
+}
+
+.cart-price-section{
+    display: flex;
+    align-items: center;
+    gap:.8rem
+}
+
+.cart-price-section h5 {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.cart-price-section p{
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-decoration: line-through;
+    color: #8d8f9a;
+}
+
+.cart-details-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.cart-functionality {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+    margin-top: 7vh;
+    margin-bottom: 5vh;
+}
+
+.cart-functionality button {
+    width: 13rem;
+    padding: .5rem 0;
+    border-radius: .5rem;
+    background-color: rgb(255, 63, 108);
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 600;
+    border: none;
+}
+
+
+.continue-shopping {
+    margin-top: 2vh;
+    background-color: rgb(255, 63, 108);
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.continue-shopping:hover {
+    background-color: rgb(245, 109, 141);
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.cart-size-section{
+    display: flex;
+    gap: .3rem;
+}
+
+.cart-size-section p{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+
+.cart-container .remove-button{
+    position: absolute;
+    top:0;
+    right: 0;
+    border: none;
+    width:5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    background-color: white;
+}
